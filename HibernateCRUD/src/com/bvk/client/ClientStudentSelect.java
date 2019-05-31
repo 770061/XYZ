@@ -25,7 +25,10 @@ public class ClientStudentSelect {
 				System.out.println("Percent: " + student.getPercent());
 				System.out.println("==================================================");
 			}
-		}catch(Exception e){
+			System.out.println("done");
+		}
+		
+		catch(Exception e){
 			System.out.println(e.getMessage());
 		}
 	}
